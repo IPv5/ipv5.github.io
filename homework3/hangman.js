@@ -30,7 +30,6 @@ var mistakes = 0;
 const maxWrong = 7;
 let answerArray = [];
 var guessedLetters = [];
-var currentWordIndex;
 var s;
 // var randomWord = possibleGuesses[Math.floor(Math.random() * possibleGuesses.length)];
 
