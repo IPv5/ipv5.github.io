@@ -161,6 +161,7 @@ restart.addEventListener("click", function() {
     count = 0;
     score = 0;
     runningQuestionIndex = 0;
+    clearInterval(TIMER);
     document.getElementById("background").style.backgroundColor = "#464646";
     document.getElementById("response").innerHTML = "";
     startQuiz();
