@@ -166,3 +166,28 @@ restart.addEventListener("click", function() {
     document.getElementById("response").innerHTML = "";
     startQuiz();
 })
+
+
+// let TIMER;
+
+// function startTest() {
+//     //call whatever you need here
+//     TIMER = setInterval(counterUpdate, 1000);
+// }
+
+// function counterUpdate() {
+//     if (count <= questionTime) {
+//         counterElement.innerHTML = count;
+//         count++;
+//     } else {
+//         count = 0;
+//         answerIsWrong();
+//         if (currentQuestionIndex < lastQuestionIndex) {
+//             currentQuestionIndex++;
+//             renderQuestion();
+//         } else {
+//             clearInterval(TIMER);
+//             scoreRender();
+//         }
+//     }
+// }
